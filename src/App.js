@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import FormikApp from './components/01/PersonInfoForm';
+import FormikForm from './components/02/SignupForm';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FormikApp /> */}
+      <FormikForm />
     </div>
   );
 }
